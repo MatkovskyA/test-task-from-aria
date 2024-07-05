@@ -1,0 +1,18 @@
+.wrapper {
+  margin-bottom: 76px;
+  max-width: 532px;
+  text-align: center;
+  
+  .wrapper-link {
+    display: inline-block;
+    padding: 14px;
+    width: 100%;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: 500;
+    color: black;
+    background: -webkit-linear-gradient(45deg, rgb(124, 111, 207), rgb(111, 207, 151));
+    background: -moz-linear-gradient(45deg, rgb(124, 111, 207), rgb(111, 207, 151));
+    background: linear-gradient(45deg, rgb(124, 111, 207), rgb(111, 207, 151));
+  }
+}
