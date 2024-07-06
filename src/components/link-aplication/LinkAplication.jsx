@@ -1,10 +1,10 @@
 import "./_linkAplication.scss"
 // import { SpriteIcon } from "../spriteIcon/SpriteIcon"
 
-export const LinkAplication = ({ icon, text, market }) => {
+export const LinkAplication = ({ icon, text, market, linkMarket }) => {
   return (
     <div className="wrapper-links">
-      <a href="">
+      <a href={linkMarket} target="_blank">
         <div>
           <img src={icon} alt="Icon" />
         </div>

@@ -18,11 +18,13 @@ const Hero = () => {
         <WhatsUpLink />
         <div className="footer-wrapper">
           <LinkAplication
+            linkMarket={"https://play.google.com/store/"}
             icon={googleIcon}
             text={"get it on "}
             market={'Google play'}
           />
           <LinkAplication
+            linkMarket={"https://www.apple.com/app-store/"}
             icon={appIcon}
             text={"Available on the"}
             market={'App Store'}

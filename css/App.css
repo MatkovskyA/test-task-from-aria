@@ -123,4 +123,5 @@ label {
   color: white;
   font-family: "Teko", sans-serif;
   font-style: normal;
+  overflow-wrap: break-word;
 }/*# sourceMappingURL=App.css.map */
