@@ -4,3 +4,12 @@
   gap: 126px;
   margin-bottom: 100px;
 }
+
+
+@media (max-width: 768px) {
+  .advantages {
+    justify-content: center;
+    gap: 49px;
+    margin-bottom: 28px;
+  }
+}

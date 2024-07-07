@@ -5,6 +5,7 @@
 
   .advantage-title {
     font-size: 48px;
+    line-height: 48px;
     font-weight: 700;
     line-height: 48px;
   }
@@ -13,5 +14,21 @@
     font-size: 18px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.3);
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .advantage {
+    
+    .advantage-title {
+      font-size: 28px;
+      line-height: 28px;
+    }
+
+    .advantage-text {
+      font-size: 14px;
+      line-height: 20px;
+    }
   }
 }

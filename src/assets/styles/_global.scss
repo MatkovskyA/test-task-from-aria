@@ -4,5 +4,10 @@
   padding: 48px 62px 32px;
   position: relative;
   margin: 0 auto;
+}
 
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 16px 12px;
+  }
 }

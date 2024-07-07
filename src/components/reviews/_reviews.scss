@@ -6,10 +6,17 @@
   position: absolute;
   top: 172px;
   right: 80px;
-  width: 390px;
+  width: 370px;
   gap: 24px;
 
   .review:nth-child(odd) {
     margin-left: auto; 
   }
 }
+
+@media (max-width: 768px) {
+  .reviews-wrapper {
+    display: none;
+  }
+}
+  
