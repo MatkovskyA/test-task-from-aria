@@ -7,6 +7,9 @@
     line-height: 120%;
     max-width: 1008px;
     margin-bottom: 44px;
+    margin-right: 290px;
+    position: relative;
+    z-index: 2;
 
     span {
       background-image: -webkit-linear-gradient(45deg, rgb(124, 111, 207), rgb(111, 207, 151));

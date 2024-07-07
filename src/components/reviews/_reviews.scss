@@ -1,0 +1,15 @@
+@import "../review/_review.scss";
+
+.reviews-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 172px;
+  right: 80px;
+  width: 390px;
+  gap: 24px;
+
+  .review:nth-child(odd) {
+    margin-left: auto; 
+  }
+}

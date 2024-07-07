@@ -5,6 +5,7 @@ import { LinkAplication } from "../link-aplication/LinkAplication"
 
 import googleIcon from "../../assets/icons/google-play.svg"
 import appIcon from "../../assets/icons/app.svg"
+import { Reviews } from "../reviews/Reviews";
 
 const Hero = () => {
   return (
@@ -14,6 +15,7 @@ const Hero = () => {
           <h1 className="hero-title">Do you want to Learn more About cryptocurrencies <span>quickly and easily ?</span></h1>
           <p className="hero-subtitle">Subscribe to our channel to learn more</p>
         </div>
+        <Reviews />
         <Advantages />
         <WhatsUpLink />
         <div className="footer-wrapper">
