@@ -31,7 +31,61 @@
   bottom: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
+  .decor {
+    width: 236px;
+  }
+
+  .decor-bitcoin {
+    background-image: url(../../assets/icons/Bitcoin-small.svg);
+    height: 238px;
+    right: 16px;
+    top: 0;
+  }
+
+  .decor-litecoin {
+    background-image: url(../../assets/icons/Litecoin-small.svg);
+    height: 190px;
+    right: 164px;
+    top: 270px;
+  }
+
+  .decor-etherium {
+    background-image: url(../../assets/icons/Ethereum-small.svg);
+    height: 254px;
+    right: 16px;
+    bottom: 201px;
+  }
+}
+
+@media (max-width: 476px) {
+  .decor {
+    width: 136px;
+  }
+
+  .decor-bitcoin {
+    background-image: url(../../assets/icons/Bitcoin-small.svg);
+    height: 188px;
+    right: 16px;
+    top: 0;
+  }
+
+  .decor-litecoin {
+    background-image: url(../../assets/icons/Litecoin-small.svg);
+    height: 160px;
+    right: 164px;
+    top: 70px;
+  }
+
+  .decor-etherium {
+    background-image: url(../../assets/icons/Ethereum-small.svg);
+    height: 214px;
+    right: 16px;
+    bottom: 51px;
+  }
+}
+
+@media (max-width: 354px) {
   .decor {
     width: 136px;
   }

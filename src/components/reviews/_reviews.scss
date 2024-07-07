@@ -8,6 +8,7 @@
   right: 80px;
   width: 370px;
   gap: 24px;
+  z-index: -1;
 
   .review:nth-child(odd) {
     margin-left: auto; 
