@@ -3,10 +3,9 @@
 @import "../src/assets/styles/variables";
 
 :root {
-  background-color: #1C1A1A;
-  color: white;
+  background-color: $bg-color;
+  color: $white-color-text;
   font-family: "Teko", sans-serif;
   font-style: normal;
   overflow-wrap: break-word;
-  // letter-spacing: 1.3px
 }

@@ -1,8 +1,10 @@
+@import "../../assets/styles/variables";
+
 .review {
   padding: 16px 20px;
-  border: 1px solid gray;
+  border: 1px solid $gray-color-text;
   border-radius: 20px;
-  background-color: rgba(48, 45, 45, 0.34);
+  background-color: $dark-bgColor-review;
   backdrop-filter: blur(30px);
   width: 288px;
 
@@ -26,7 +28,7 @@
       .review-data__nickName {
         font-weight: 500;
         line-height: 20px;
-        color: rgba(255, 255, 255, 0.3);
+        color: $gray-color-text;
       }
     }
   }

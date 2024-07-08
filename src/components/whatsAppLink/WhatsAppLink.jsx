@@ -1,6 +1,4 @@
 import "./_whatsUpLink.scss";
-import { Link } from "react-router-dom";
-
 
 const WhatsUpLink = () => {
 

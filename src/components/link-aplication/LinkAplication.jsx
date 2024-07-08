@@ -1,5 +1,4 @@
 import "./_linkAplication.scss"
-// import { SpriteIcon } from "../spriteIcon/SpriteIcon"
 
 export const LinkAplication = ({ icon, text, market, linkMarket }) => {
   return (
@@ -13,7 +12,6 @@ export const LinkAplication = ({ icon, text, market, linkMarket }) => {
           <span className="links-market">{market}</span>
         </div>
       </a>
-
     </div>
   )
 }

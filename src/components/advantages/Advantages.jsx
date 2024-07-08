@@ -5,15 +5,15 @@ const Advantages = () => {
   return (
     <div className="advantages">
       <Advantage
-        count={'20K+'}//данные с бэка
+        count={'20K+'}
         text={'subscribers'}
       />
       <Advantage
-        count={'19,5K'}//данные с бэка
+        count={'19,5K'}
         text={'successful cases'}
       />
       <Advantage
-        count={'4.8/5'}//данные с бэка
+        count={'4.8/5'}
         text={'rating'}
       />
     </div>
