@@ -6,7 +6,7 @@ const Advantages = () => {
     <div className="advantages">
       <Advantage
         count={'20K+'}//данные с бэка
-        text={'subsribers'}
+        text={'subscribers'}
       />
       <Advantage
         count={'19,5K'}//данные с бэка

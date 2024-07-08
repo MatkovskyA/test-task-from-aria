@@ -12,6 +12,7 @@
     line-height: 28px;
     font-weight: 500;
     color: black;
+    text-transform: uppercase;
     background: -webkit-linear-gradient(45deg, rgb(124, 111, 207), rgb(111, 207, 151));
     background: -moz-linear-gradient(45deg, rgb(124, 111, 207), rgb(111, 207, 151));
     background: linear-gradient(45deg, rgb(124, 111, 207), rgb(111, 207, 151));
@@ -28,7 +29,7 @@
       padding: 12px;
       font-size: 20px;
       line-height: 24px;
-      box-shadow: 0px 0px 50px 30px rgba(165, 191, 180, 0.15);
+      box-shadow: 0px 0px 90px 30px rgba(165, 191, 180, 0.15);
     }
   }
 }
